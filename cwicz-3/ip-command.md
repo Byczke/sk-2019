@@ -54,3 +54,4 @@ Zadanie
    * Przygotuj dokumentację pisemno obrazkową z wykonania zadania w formacie ``markdown`` zamieść ją w serwisie ``github.com`` obok obocnego tematu ``cwiczenia-3``
 
 ![zadanie 3.1](cwiczenia3.1.svg) 
+https://tlk.io/sk-2019
