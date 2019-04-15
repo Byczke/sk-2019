@@ -18,7 +18,8 @@ Zadanie
    * Wykonaj konfigurację translacji adresów tak aby udostępnic komunikację z siecią internet dla ``PC-2``
    * Przygotuj dokumentację powyższego procesu
    *  **czy istnieje różnica keżeli adres eth0 statyczny/dynamiczny? Jeżeli to jaka?**
-
+Sprawdzamy konfigurajce sieciowe w maszynach, jeżeli są obecne niepotrzebne adresy ip możemy uzyc komendy ip flush, żeby się ich pozbyć.
+Ustawiamy sieci WAN z ip 10.0.2.0/24 z obsługą DHCP i LAN o ip 192.168.64.192/27 bez obsługi DHCP. Podłączamy maszynę PC0 do sieci WAN i LAN, a maszynę PC1 tylko do LAN. W PC0 ustawiamy ip komendą ip addr add 192.168.64.193/27 dev enp0s8, w PC1 ustawiamy ip 192.168.64.194/27 dev enp0s3. Sprawdzamy czy maszyny się pingują, i czy PC0 pinguje adresy zewnętrzne.
 
 ![zadanie 7](nat-2.svg)
 
