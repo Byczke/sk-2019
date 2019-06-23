@@ -7,3 +7,10 @@ Wykorzystałem do tego maszynę załączoną na moodlu i opcję clone aby uzyska
 Następnie tworzymy dwie sieci typu NAT
 
 ![](part1.JPG)
+-------------------------------
+3.
+
+Wybieramy maski podsieci i adresy IP
+Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska będzie nam potrzebna
+
+![](maska_podsieci.png)
