@@ -1,3 +1,9 @@
+1.
 Pierwszym krokiem jest utworzenie 3 maszyn w środowisku VirtualBox
 Wykorzystałem do tego maszynę załączoną na moodlu i opcję clone aby uzyskać 2 pozostałe maszyny
 ![](part2.JPG)
+-------------------------------
+2.
+Następnie tworzymy dwie sieci typu NAT
+
+![](part1.JPG)
