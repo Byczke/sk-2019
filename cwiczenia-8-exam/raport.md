@@ -31,10 +31,12 @@ Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska bę
  Konfiguracja sieci:
   **PC1**
   
-  ![](part_3.JPG)
+  ![](part3.JPG)
+  
   **PC2**
   
   ![](part4.JPG)
+  
   **PC3**
   
   ![](part5.JPG)
