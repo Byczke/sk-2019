@@ -15,6 +15,9 @@ ip
 | ------------- |:-------------| :---------------| 
 |   ``route``    |                               | |
 |               |   ``ip route add``             | |
+| ip route get  | docelowe miejsce przesyłu adresu| |
+|ip route show | tablica routingu | |
+|ip route add default via adress | dodanie adresu do tablicy routingu |
 
 
 Zadanie
