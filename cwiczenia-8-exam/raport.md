@@ -29,6 +29,7 @@ Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska bę
  karta nr1 - LAN2
  
  Konfiguracja sieci:
+ 
   **PC1**
   
   ![](part3.JPG)
@@ -40,3 +41,9 @@ Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska bę
   **PC3**
   
   ![](part5.JPG)
+
+4. Routing PC2 oraz PC3
+
+![](part6.JPG)
+
+![](part7.JPG)
