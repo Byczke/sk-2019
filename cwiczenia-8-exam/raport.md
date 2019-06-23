@@ -31,7 +31,7 @@ Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska bę
  Konfiguracja sieci:
   **PC1**
   
-  ![](part 3.JPG)
+  ![](part_3.JPG)
   **PC2**
   
   ![](part4.JPG)
