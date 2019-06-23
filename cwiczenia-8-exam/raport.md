@@ -61,3 +61,22 @@ Następnie sprawdzamy poprawność ip route show
 w  pliku znajdującym się w ścieżce /etc/sysctl.d w pliku 99-sysctl.conf odkomentować następującą linijkę
 
 ![](part8lub9.JPG)
+
+6. MASQUERADE - PC1
+
+Ścieżka /etc/ w pliku iptables.up.rules dopisać
+
+![](part9.JPG)
+
+Trzeba także ustawić automatyczne wczytywanie tych reguł przy starcie maszyny
+Robimy to poprzez edycję pliku interfaces w ścieżce /etc/network/ dopisując
+
+![](part10.JPG)
+
+7. DNS
+
+Ostatnim krokiem jest dodanie w pliku resolv.conf w ścieżce /etc/ adresów DNS, w tym przypadku "1.1.1.1"
+
+![](part11.JPG)
+
+Zarówno dla PC2 jak i PC3
