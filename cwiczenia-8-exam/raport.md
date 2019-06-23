@@ -44,6 +44,20 @@ Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska bę
 
 4. Routing PC2 oraz PC3
 
+Dodajemy te linijki w /etc/network/interfaces
+
+**PC2**
+
 ![](part6.JPG)
 
+**PC3**
+
 ![](part7.JPG)
+
+Następnie sprawdzamy poprawność ip route show
+
+5. Konfiguracja forwardingu na PC1
+
+w  pliku znajdującym się w ścieżce /etc/sysctl.d w pliku 99-sysctl.conf odkomentować następującą linijkę
+
+![](part8lub9.JPG)
