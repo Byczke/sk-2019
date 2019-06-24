@@ -59,7 +59,7 @@ Dodajemy te linijki w /etc/network/interfaces
 
 ![](part7.JPG)
 
-Następnie sprawdzamy poprawność ip route show
+Następnie sprawdzamy poprawność korzystając z **ip route show**
 
 **Konfiguracja forwardingu na PC1**
 
