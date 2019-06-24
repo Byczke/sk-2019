@@ -18,12 +18,19 @@ Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska bę
  
  
  **PC1** podłączamy do:
+ 
  karta nr1 - NAT
+ 
  karta nr2 - LAN1
+ 
  karta nr3 - LAN2
+ 
  **PC2** podłączamy do:
+ 
  karta nr1 -LAN1
+ 
  **PC3** podłączamy do:
+ 
  karta nr1 - LAN2
  
  **Konfiguracja sieci:**
