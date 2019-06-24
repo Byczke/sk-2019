@@ -1,19 +1,17 @@
-1.
-Pierwszym krokiem jest utworzenie 3 maszyn w środowisku VirtualBox
-Wykorzystałem do tego maszynę załączoną na moodlu i opcję clone aby uzyskać 2 pozostałe maszyny
+**Pierwszym krokiem jest utworzenie 3 maszyn w środowisku VirtualBox
+Wykorzystałem do tego maszynę załączoną na moodlu i opcję clone aby uzyskać 2 pozostałe maszyny**
+
 ![](part2.JPG)
--------------------------------
-2.
-Następnie tworzymy dwie sieci typu NAT
+
+**Następnie tworzymy dwie sieci typu NAT**
 
 ![](part1.JPG)
--------------------------------
-3.
 
-Wybieramy maski podsieci i adresy IP
-Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska będzie nam potrzebna
+**Wybieramy maski podsieci i adresy IP
+Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska będzie nam potrzebna**
 
 ![](maska_podsieci.png)
+
  Czyli w naszym przypadku będzie to 
  172.22.128.0/19 dla 8190 hostów, aby była możliwość adresacji 5000 urządzań
  172.22.128.0/23 dla 510  hostów, aby była możliwość adresacji 500  urządzeń
@@ -28,7 +26,7 @@ Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska bę
  **PC3** podłączamy do:
  karta nr1 - LAN2
  
- Konfiguracja sieci:
+ **Konfiguracja sieci:**
  
   **PC1**
   
@@ -42,7 +40,7 @@ Korzystając z tablic dostępnych w internecie możemy sprawdzić jaka maska bę
   
   ![](part5.JPG)
 
-4. Routing PC2 oraz PC3
+**Routing PC2 oraz PC3**
 
 Dodajemy te linijki w /etc/network/interfaces
 
@@ -56,13 +54,13 @@ Dodajemy te linijki w /etc/network/interfaces
 
 Następnie sprawdzamy poprawność ip route show
 
-5. Konfiguracja forwardingu na PC1
+**Konfiguracja forwardingu na PC1**
 
 w  pliku znajdującym się w ścieżce /etc/sysctl.d w pliku 99-sysctl.conf odkomentować następującą linijkę
 
 ![](part8lub9.JPG)
 
-6. MASQUERADE - PC1
+**MASQUERADE - PC1**
 
 Ścieżka /etc/ w pliku iptables.up.rules dopisać
 
@@ -73,7 +71,7 @@ Robimy to poprzez edycję pliku interfaces w ścieżce /etc/network/ dopisując
 
 ![](part10.JPG)
 
-7. DNS
+**DNS**
 
 Ostatnim krokiem jest dodanie w pliku resolv.conf w ścieżce /etc/ adresów DNS, w tym przypadku "1.1.1.1"
 
